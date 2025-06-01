@@ -1,0 +1,14 @@
+{
+  "name": "Python Caldav",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+  "postCreateCommand": "pip3 install --user -r requirements.txt",
+  "customizations": {
+    "jetbrains": {
+      "backend": "PyCharm",
+      "plugins": [
+        "com.github.copilot"
+      ]
+    }
+  },
+   "remoteUser": "root"
+}
